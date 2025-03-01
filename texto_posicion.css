@@ -1,0 +1,253 @@
+
+/* Mensajes Ajustar */
+
+#msj1 {
+    font-family: "Aptos", sans-serif; /* tipo de letra */ 
+    text-align: left; /* ajustar el texto */  
+    font-size: 18px; /* tamaño de las letras */
+    text-align: center; /* alineacion del texto*/
+    margin-top: 500px; /* altura */
+}
+
+#msj2 {
+    font-family: "Times New Roman", serif; /* tipo de letra */ 
+    text-align: justify; /* ajustar el texto */
+    font-size: 20px; /* tamaño de las letras */
+    text-align: center; /* alineacion del texto*/
+    margin-top: 900px; /* altura */
+}
+
+#msj3 {
+    font-size: 10px; /* tamaño de las letras */
+    text-align: center; /* alineacion del texto*/
+    margin-top: 1000px; /* altura */
+}
+
+#msj4 {
+    font-family: "Times New Roman", serif; /* tipo de letra */ 
+    text-align: justify; /* ajustar el texto */
+    font-size: 20px; /* tamaño de las letras */
+    text-align: center; /* alineacion del texto*/
+    margin-top: 900px; /* altura */
+}
+
+#msj5 {
+    position: absolute;
+    top: 10%; 
+    left: 40%;
+    font-size: 30px; /* tamaño de las letras */
+    text-align: center; /* alineacion del texto*/
+    margin-top: 10px; /* altura */
+}
+#msj5:hover {
+    color: red;
+}
+
+#msj7 {
+    position: absolute;
+    top: 150%; 
+    left: 40%;
+    font-size: 30px; /* tamaño de las letras */
+    text-align: center; /* alineacion del texto*/
+    margin-top: 10px; /* altura */
+}
+
+
+/* ---------------------------------------------------------- */
+
+/* Contenedor Ajustar */
+
+.contenedor1 {
+    width: 900px;
+    height: 100px;
+    background: #aaa;
+    margin-top: 50px;  /* Baja (numero)px */
+    margin-left: 500px;  /* Empuja (numero)px hacia la derecha */
+}
+
+.contenedor2 {
+    width: 700px;
+    height: 130px;
+    background: #aaa;
+    margin-top: 10px;  /* Baja (numero)px */
+    margin-left: 500px;  /* Empuja (numero)px hacia la derecha */
+}
+
+.contenedor3 {
+    width: 900px;
+    height: 100px;
+    /* background: #aaa; */
+    margin-top: 50px;  /* Baja (numero)px */
+    margin-left: 30px;  /* Empuja (numero)px hacia la derecha */
+}
+
+.contenedor5 {
+    position: absolute;
+    top: 260%;
+    left: 35%;
+    width: 400px; /* Cambia el tamaño del contenedor */
+    height: 200px;
+    overflow: hidden; /* Evita que la imagen sobresalga */
+}
+
+.contenedor5 img {
+    width: 100%; /* Hace que la imagen ocupe todo el div */
+    height: 100%;
+    object-fit: cover; /* Ajusta la imagen sin deformarla */
+}
+
+/* Imagenes */
+.contenedor6 {
+    position: absolute;
+    top: 290%;
+    left: 35%;
+    width: 400px; /* Cambia el tamaño del contenedor */
+    height: 200px;
+    overflow: hidden; /* Evita que la imagen sobresalga */
+}
+
+.contenedor6 img {
+    width: 100%; /* Hace que la imagen ocupe todo el div */
+    height: 100%;
+    object-fit: cover; /* Ajusta la imagen sin deformarla */
+    filter: blur(1px); /* Aplica desenfoque */
+}
+
+
+/* ---------------------------------------------------------- */
+
+/* BOTONES */
+
+#btn1 {
+    position: absolute;
+    top: 20%; 
+    left: 43%;
+    padding: 17px 40px;
+    border-radius: 10px;
+    border: 0;
+    background-color: rgb(255, 56, 86);
+    letter-spacing: 1.5px;
+    font-size: 15px;
+    transition: all 0.3s ease;
+    box-shadow: rgb(201, 46, 70) 0px 10px 0px 0px;
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+  }
+  
+#btn1:hover {
+    box-shadow: rgb(201, 46, 70) 0px 7px 0px 0px;
+}
+
+#btn1:active {
+    background-color: rgb(255, 56, 86);
+    box-shadow: rgb(201, 46, 70) 0px 0px 0px 0px;
+    transform: translateY(5px);
+    transition: 200ms;
+}
+
+#btn2 {
+    position: absolute;
+    top: 30%; 
+    left: 44%;
+    padding: 17px 40px;
+    border-radius: 10px;
+    border: 0;
+    background-color: rgb(110, 22, 232);
+    letter-spacing: 1.5px;
+    font-size: 15px;
+    transition: all 0.3s ease;
+    box-shadow: rgb(70, 22, 151) 0px 10px 0px 0px;
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+
+#btn2:hover {
+    box-shadow: rgb(46, 82, 201) 0px 7px 0px 0px;
+}
+
+#btn2:active {
+    background-color: rgb(56, 86, 255);
+    box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+    transform: translateY(5px);
+    transition: 200ms;
+}
+  
+/* ---------------------------------------------------------- */
+
+/* ANIMACIONES (TEXTO) */
+
+#msj6 {
+    position: absolute;
+    top: 350px; /* Sube el texto */
+    left: 700px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    color: #060606;
+    padding: 10px;
+    background-image: linear-gradient(#ff2f2f, #ff2f2f);
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    background-position-x: right;
+    transition: background-size 500ms ease-in-out, color 500ms ease-in-out;
+    display: inline-block; /* Ajusta el fondo al tamaño del texto */
+}
+
+#msj6:hover {
+    background-size: 100% 100%;
+    background-position-x: left;
+    color: black; /* Cambia el color del texto para que sea visible */
+}
+
+.contenedor {
+    display: flex;
+    align-items: flex-start; /* Alinea el texto arriba */
+}
+
+/* ---------------------------------------------------------- */
+
+/* tablas  */
+
+table {
+    position: absolute;
+    width: 30%;
+    border-collapse: collapse;
+    margin-bottom: 20px; /* Espacio entre las tablas */
+}
+
+caption {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* Estilos para la tabla Eric */
+.tabla-eric {
+    border: 2px solid blue;
+    position: absolute;
+    top: 390%;
+    left: 30%;
+}
+
+.tabla-eric th, .tabla-eric td {
+    border: 2px solid blue;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Estilos para la tabla Moni */
+.tabla-moni {
+    border: 2px solid green;
+    position: absolute;
+    top: 420%;
+    left: 30%;
+}
+
+.tabla-moni th, .tabla-moni td {
+    border: 2px solid green;
+    padding: 10px;
+    text-align: center;
+}
+
+/* ---------------------------------------------------------- */
+
